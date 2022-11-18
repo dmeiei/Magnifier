@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/main_background_color"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/QuestionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/c_Btn0"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                />
+
+            <Button
+                android:id="@+id/c_Btn1"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                />
+
+
+            <Button
+                android:id="@+id/c_Btn2"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/c_Btn3"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/c_Btn4"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                />
+
+            <Button
+                android:id="@+id/c_Btn5"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/c_Btn6"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                />
+
+            <Button
+                android:id="@+id/c_Btn7"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/c_Btn8"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                />
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_weight="0.2"
+            android:padding="0sp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/c_startBtn"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:text="시작"
+                android:background="@drawable/button2"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/c_resetBtn"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:text="다시하기"
+                android:background="@drawable/button2"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+        </GridLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/c_correct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:visibility="invisible"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/circle1"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/main_background_color"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--기회 횟수 -->
+            <TextView
+                android:id="@+id/CountText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <!--결과 텍스트 -->
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/ResultText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/holo_green_light"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <!--숫자 입력 -->
+            <EditText
+                android:id="@+id/answerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="숫자를 입력하세요 1~100"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="25dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:columnCount="3"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/StartBtn"
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="wrap_content"
+                        android:text="시작"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                    <Button
+                        android:id="@+id/AnswerBtn"
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="wrap_content"
+                        android:text="정답"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                    <Button
+                        android:id="@+id/ResetBtn"
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_height="wrap_content"
+                        android:text="초기화"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                </GridLayout>
+
+            </LinearLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:layout_weight="1"
+                android:padding="0sp"
+                android:orientation="horizontal">
+
+
+
+
+
+
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/correct_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:visibility="invisible"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/circle"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+</FrameLayout>

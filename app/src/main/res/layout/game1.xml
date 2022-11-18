@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/main_background_color"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"/>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:layout_weight="1"
+                android:padding="0sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+
+
+<!--                카드 뒷면-->
+                <ImageButton
+                    android:id="@+id/imageBtn0"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:text="Button1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageBtn1"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:text="Button2"
+                    android:background="@drawable/round"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    />
+
+
+                <ImageButton
+                    android:id="@+id/imageBtn2"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:text="Button3" />
+
+                <ImageButton
+                    android:id="@+id/imageBtn3"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:text="Button4" />
+
+                <ImageButton
+                    android:id="@+id/imageBtn4"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:text="Button5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageBtn5"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:text="Button6" />
+
+                <ImageButton
+                    android:id="@+id/imageBtn6"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:text="Button7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageBtn7"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:text="Button8" />
+
+                <ImageButton
+                    android:id="@+id/imageBtn8"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:text="Button7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageBtn9"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:text="Button8" />
+
+                <ImageButton
+                    android:id="@+id/imageBtn10"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:text="Button7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageBtn11"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:text="Button8" />
+
+
+                <ImageButton
+                    android:id="@+id/imageBtn12"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:text="Button7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageBtn13"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:text="Button8" />
+
+                <ImageButton
+                    android:id="@+id/imageBtn14"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:text="Button7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    />
+
+                <ImageButton
+                    android:id="@+id/imageBtn15"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:scaleType="fitCenter"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/round"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/question"
+                    android:text="Button8" />
+                <Button
+                    android:id="@+id/empty1_button"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:visibility="invisible"
+
+                    android:text="리셋" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/reset_button"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_columnSpan="2"
+                    android:layout_height="0dp"
+                    android:background="@drawable/button2"
+                    android:layout_rowWeight="1"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:text="다시 하기" />
+                <Button
+                    android:id="@+id/empty2_button"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:visibility="invisible"
+                    android:text="test" />
+
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/correct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#00000000"
+            android:visibility="invisible"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/circle1"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+</FrameLayout>
